@@ -1,0 +1,163 @@
+.crystal-img {
+
+	height: 150px;
+	width: 150px;
+	
+}
+
+.backdrop {
+
+	
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin-right: 20px;
+	border-width: 0.5px;
+	border-color: grey;
+}
+
+body {
+	
+	background-image: url("images/waterfallbackground.gif");
+	margin-left: 80px;
+
+}
+
+#title {
+
+	padding: 20px;
+	background-color: green;
+	color: white;
+	float: left;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: grey;
+}
+
+#instructions-back {
+
+	background-color: white;
+	float: left;
+	border-style: dotted;
+	border-width: 0.5px;
+	border-color: grey;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 650px;
+}
+
+#instructions {
+
+	font-family: helvetica;
+	color: forestgreen;
+	font-weight: bold;
+}
+
+#target-back  {
+
+	background-color: blue;
+	float: left;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: grey;
+	padding-left: 10px;
+	padding-right: 150px;
+	padding-bottom: 100px;
+
+}
+
+#counter-back  {
+
+	background-color: blue;
+	float: left;
+	margin-left: 40px;
+	border-style: dotted;
+	border-width: 0.5px;
+	border-color: grey;
+	padding-left: 10px;
+	padding-right: 10px;
+
+
+}
+
+#score-back {
+
+	background-color: blue;
+	float: left;
+	border-style: dashed;
+	border-width: 10px;
+	border-color: grey;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+
+}
+
+#playerScore {
+
+	padding: 10px;
+	padding-right: 150px;
+	padding-bottom: 70px;
+	background-color: teal;
+	float: left;
+	border-style: solid;
+	border-width: 0.5px;
+	border-color: grey;
+	margin-bottom: 70px;
+	color: white;
+	font-family: helvetica;
+	font-size: 40px;
+	
+
+}
+
+#numberGuess {
+
+	color: silver;
+	font-family: helvetica;
+	font-weight: bold;
+}
+
+#randomNumber {
+
+	color: silver;
+	font-size: 40px;
+}
+
+#wins {
+
+	color: red;
+	font-weight: bold;
+	font-family: helvetica;
+}
+
+#losses {
+
+	color: purple;
+	font-weight: bold;
+	font-family: helvetica;
+}
+
+#score-text {
+
+color: white;
+font-weight: bold;
+font-family: helvetica;
+
+}
+
+.dancer {
+	padding-left: 30px;
+	padding-bottom: 80px;
+	float:left;
+
+
+}
+
+
+
+
+
+
+
+

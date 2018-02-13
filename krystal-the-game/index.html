@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crystal: The Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 id="title">KrYstaL GaMe</h1>  
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="instructions-back">
+  <p id="instructions">You will be given a random "number to guess" at the start of the game.<br>----------<br>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score. <br>----------<br>You win the game by matching your total score to the "number to guess". You lose the game if your total score goes above he random number. <br>----------<br>The value of each crystal is hidden from you until you click on it.<br>----------<br>Each time the game starts, the values on the crystals change too!</p>
+</div>
+
+<div class="dancer">
+  <IMG SRC="images/sparkle.gif" alt="dancer"> 
+
+</div>
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div id="target-back">
+<p id="numberGuess">guess this number!:<br><br> <span id="randomNumber"></span></p>
+</div>
+
+<div id="counter-back">
+  <p id="wins">Wins: <span id="winCounter"></span></p>
+  <p id="losses">Losses: <span id="lossCounter"></span></p>
+</div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+<div class="backdrop">
+  <img class="crystal-img" id="crystal1" src="images/crystal1.png" alt="crystal1">
+</div>
+<div class="backdrop">
+  <img class="crystal-img" id="crystal2" src="images/crystal2.png" alt="crystal1">
+</div>
+<div class="backdrop">
+  <img class="crystal-img" id="crystal3" src="images/crystal3.png" alt="crystal3">
+</div>
+<div class="backdrop">
+  <img class="crystal-img" id="crystal4" src="images/crystal4.png" alt="crystal4">
+</div>
+
+<br><br><br><br><br><br><br><br><br><br><br>
+
+
+<div id="score">
+  <p id="score-text">Your total score is:</p>
+</div>
+
+<br><br>
+
+<div id="score-back">
+  <div id="playerScore"></div>
+</div>
+
+<audio src="sounds/crystal.mp3" autoplay></audio>
+
+
+
+
+<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <!-- Bootstrap JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<script src="game.js"></script>
+</body>
+</html>
